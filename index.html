@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora permutaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/calcu.png">
+</head>
+<body>
+    <main>
+        <section>
+            <header class="head">
+                <img src="images/calcu.png" class="calculadora" alt="">
+                <h2 class="titulo">PERMUTACIONES</h2>
+                <a href="https://www.youtube.com/watch?v=3svszuOz368&ab_channel=DanielCarreón" target="_blank" class="informacion">Informacion Acerca Permitaciones</a>
+            </header>
+            <div class="columna">
+                <div class="columna1">
+                    <h2 class="titulo2">CALCULADORA</h2>
+                    <label for="datos">
+                        <input type="text" id="datos" class="ingreso" placeholder="Ingrese sus datos">
+                    </label>
+                    <p class="texto5">Al ingresar los datos se separan con comas y se finaliza con un punto</p>
+                    <button type="submit" class="boton" onclick="permutar()">Calcular</button>
+                </div>
+                <div class="columna2">
+                    <textarea name="resultado" id="result" class="tabla" cols="10" rows="15" placeholder></textarea>
+                </div>
+            </div>
+            <div class="end">
+                <p href="" class="link2">By:Alejandro Toledo y Julian Osorio</p>
+            </div>
+        </section>
+    </main>
+    <script src="funcion.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+
+.columna{
+    display: grid;
+    height: 421px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+.calculadora{
+    width: 8%;
+    height: 90%;
+    background-color: black;
+}
+
+.titulo{
+    font-family: Impact;
+    color: white;
+    background-color: black;
+    font-size: 2.3rem;
+    margin-left: 1.5rem;
+}
+
+.informacion{
+    background-color: black;
+    font-family: Impact;
+    font-size: 1rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.link2{
+    margin-left: 1rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    font-size: 1.3rem;
+}
+
+.columna1{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.ingreso{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 1.3rem;
+    font-family: Impact;
+    background-color: white;
+}
+
+.boton{
+    background-color: black;
+    margin-top: 3rem;
+    width: 80%;
+    font-size: 20px;
+    font-family: Impact;
+    color: white;
+    border-radius: 10px;
+}
+
+.titulo2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    font-family: Impact;
+}
+
+.columna2{
+    background-color: white;
+    margin-top: 3px;
+    height: 98%;
+    width: 55%;
+    border-radius: 20px;
+}
+
+.tabla{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.texto5{
+    background-color: white;
+    font-family: Impact;
+    color: gray;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+}
